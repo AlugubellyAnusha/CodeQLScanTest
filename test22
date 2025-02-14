@@ -1,6 +1,6 @@
 function test(testString){
 Var $parser = new ParseMaster;
-$parser.add(/\/\*[^*]*\*+([^\/][^*]*\*+)*\//, " "); 
+$parser.add(/\/\*[^*]*\*+([^\/][^*]*\*+)*\//, " ");  
  
  // return new RegExp(testString.replace(/\\/g, "\\\\").replace(/\$/g, "\\$"));
 
