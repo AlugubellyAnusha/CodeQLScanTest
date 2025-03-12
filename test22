@@ -1,6 +1,7 @@
 function test(testString){
-Var $parser = new ParseMaster;
-$parser.add(/\/\*[^*]*\*+([^\/][^*]*\*+)*\//, " ");  
+ this._shortWeekdaysParse[i] = new RegExp('^' + this.weekdaysShort(mom, '').replace('.', '\.?') + '$', 'i');
+//Var $parser = new ParseMaster;
+//$parser.add(/\/\*[^*]*\*+([^\/][^*]*\*+)*\//, " ");  
  
  // return new RegExp(testString.replace(/\\/g, "\\\\").replace(/\$/g, "\\$"));
 
