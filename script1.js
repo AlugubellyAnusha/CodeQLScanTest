@@ -3,7 +3,7 @@ jQuery.ajax({
 			type: type,
 			dataType: "html",
 			data: params,
-			complete: function(res, status){
+			complete: function(res, status){ 
 				// If successful, inject the HTML into all the matched elements
 				if ( status == "success" || status == "notmodified" )
 					// See if a selector was specified
