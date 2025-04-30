@@ -1,0 +1,8 @@
+/*function test(testString){
+testString = testString.replace( /'/g, "\\$&" );
+  //return new RegExp(testString.replace(/\\/g, "\\\\").replace(/\$/g, "\\$"));
+  
+
+  
+}
+*/
